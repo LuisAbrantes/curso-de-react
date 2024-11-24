@@ -26,7 +26,8 @@ function App() {
             // STORAGE/PERSIST THE DATA IN THE STATE
             setTasks(data);
         };
-        fetchTasks();
+        // CAN CALL THE API TO GET TASKS UNCOMMENTING THE LINE BELOW
+        // fetchTasks();
     }, []);
 
     function onTaskClick(taskId) {
